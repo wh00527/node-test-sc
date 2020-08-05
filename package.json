@@ -1,0 +1,25 @@
+{
+  "name": "kevin-test-scraping",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node app.js",
+    "generate": "node utils/converter.js",
+    "test": "mocha test/index"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.5",
+    "debug": "~2.6.9",
+    "express": "~4.17.1",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.10.0",
+    "node-html-to-image": "3.0.1"
+  },
+  "devDependencies": {
+    "chai": "4.1.0",
+    "mocha": "3.4.2"
+  }
+}
